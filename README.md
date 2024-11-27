@@ -1,9 +1,9 @@
-# A Multi-Grained Symmetric Differential Equation Model for Learning Protein-Ligand Binding Dynamics
+# **NeuralMD:** A Multi-Grained Symmetric Differential Equation Model for Learning Protein-Ligand Binding Dynamics
 
 Authors: Shengchao Liu*, Weitao Du*, Hannan Xu, Yanjing Li, Zhuoxinran Li, Vignesh Bhethanabotla, Divin Yan, Christian Borgs*, Anima Anandkumar*, Hongyu Guo*, Jennifer Chayes*
 
 [[Project Page](https://chao1224.github.io/NeuralMD)] [[ArXiv](https://arxiv.org/abs/2401.15122)]
-[[Datasets on Hugging Face](https://huggingface.co/datasets/chao1224/NeuralMD/tree/main)] [[Checkpoints on Hugging Face](https://huggingface.co/chao1224/NeuralMD/tree/main)]
+[[Datasets on HuggingFace](https://huggingface.co/datasets/chao1224/NeuralMD/tree/main)] [[Checkpoints on HuggingFace](https://huggingface.co/chao1224/NeuralMD/tree/main)]
 
 <p align="center">
   <img src="figure/pipeline.png" /> 
@@ -106,12 +106,6 @@ The data folder structure looks like the following:
 |   |   `-- test_MD.txt
 |   |   `-- MD.hdf5
 |   |   `-- val_MD.txt
-|   `-- processed_semi_flexible
-|   |   `-- geometric_data_processed_val.pt
-|   |   `-- pre_filter.pt
-|   |   `-- geometric_data_processed_test.pt
-|   |   `-- pre_transform.pt
-|   |   `-- geometric_data_processed_train.pt
 ```
 
 # 3. Scripts
